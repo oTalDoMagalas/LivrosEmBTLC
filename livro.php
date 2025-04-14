@@ -20,7 +20,7 @@
           <h1>Sistema de Biblioteca Escolar 📚</h1>
           <div class="d-flex align-items-center gap-3">
             <i class="bi bi-person-circle fs-4"></i>
-            <span>Bem-vindo, <strong>Usuario</strong></span>
+            <span>Bem-vindo, <strong>Gustavo Magalas Generoso</strong></span>
             <a href="#" class="btn btn-outline-danger d-flex align-items-center gap-1">
               <i class="bi bi-box-arrow-right"></i> Sair
             </a>
@@ -118,6 +118,19 @@
                       <form method="post" class="d-flex gap-2">
                         <button class="btn btn-danger btn-sm" name="deletar">Excluir</button>
                         <button class="btn btn-warning btn-sm" name="devolver">Devolver</button>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>A Culpa É das Estrelas</td>
+                    <td> John Green</td>
+                    <td> 2012</td>
+                    <td><span class="badge bg-success">Disponível ✅</span></td>
+                    <td>
+                      <form method="post" class="d-flex gap-2">
+                        <button class="btn btn-danger btn-sm" name="deletar">Excluir</button>
+                        <input type="number" class="form-control form-control-sm w-25" name="dias" min="1" value="7">
+                        <button class="btn btn-primary btn-sm" name="alugar">Alugar</button>
                       </form>
                     </td>
                   </tr>
